@@ -8,17 +8,17 @@ pipeline{
                 echo "========executing A========"
             }
         }
-        stage("A"){
+        stage("B"){
             steps{
                 echo "========executing A========"
             }
         }
-        stage("A"){
+        stage("C"){
             steps{
                 echo "========executing A========"
             }
         }
-        stage("A"){
+        stage("D"){
             steps{
                 echo "========executing A========"
             }
